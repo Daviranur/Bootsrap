@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>latihan breadcrumb</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .bread-margin{
+            margin-left: 30px;
+        }
+        .bread-margin1{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+    </style>
 </head>
 <body>
+     
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active fs-2 bread-margin1" aria-current="page">Home</li>
+        </ol>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item fs-2 bread-margin"><a href="#">home</a></li>
+            <li class="breadcrumb-item active fs-2" aria-current="page">libary</li>
+        </ol>
+    </nav>
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="beadcrumb-item fs-2 bread-margin"><a href="#">home</a></li>
+            <li class="breadcrumb-item active fs-2" aria-current="page">libary</li>
+        </ol>
+    </nav>
+
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
