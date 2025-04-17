@@ -1,0 +1,19 @@
+body{
+    background-color: navy;
+}
+.margin{
+  margin-top: 130px;
+  margin-left: -120px;
+}
+.margin-2{
+  margin-top: 260px;
+  margin-left: -150px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.margin-3{
+  margin-top: 120px;
+  margin-right: 20px;
+}
+.margin-4{
+  margin-top: 180px;
+}
