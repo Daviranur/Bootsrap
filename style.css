@@ -19,5 +19,13 @@ body{
 }
 .margin-5{
   margin-top: 600px;
-  margin-left: -150px;
+  margin-left: -360px;
+}
+.margin-6{
+  margin-top: 470px;
+  margin-left: -60px;
+}
+.margin-7{
+  margin-top: 570px;
+  margin-right: 150px;
 }
