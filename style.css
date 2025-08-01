@@ -1,0 +1,20 @@
+body{
+    background-color: #ccd6e2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-card{
+    width: fit-content;
+    background-color: white;
+    box-shadow: 0 0 25px  rgba(0,0,0,0.1);
+}
+
+.title-font{
+    font-family: 'Playfair Display', serif;
+}
